@@ -1,4 +1,4 @@
-const CACHE = 'entry-didi-d5';
+const CACHE = 'entry-didi-d6';
 const MINE = /^entry-didi-/;   // only this app's caches; never touch the general Entry app or Entry Sally on the same site
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 self.addEventListener('install', e => {
